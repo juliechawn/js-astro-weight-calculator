@@ -1,1 +1,3 @@
-# startnow-web101-astro-weight-calculator
+# astro-weight-calculator
+
+First JavaScript Project

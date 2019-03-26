@@ -3,33 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body class="body">
     <div class="container">
       <div class="header"><h1>Astro Weight Calculator</h1></div>
       <div class="calculator">
-            <h2>How much do you weigh?</h2>
+            <h2>How much do you weigh in outerspace?</h2>
             <input id="user-weight" type="text" placeholder="Weight (lbs)"/> 
-            <h2>Pick something in our solar system!</h2><select id="planets"></select>
+            <h4>Pick something in our solar system!</h4>
+            <select id="planets"></select>
             <p>
             <button onclick="handleClickEvent()" class="btn btn-primary" id="calculate-button">Calculate your new weight!</button>
       </div>
-      <div class="footer">
-        <p id="output">        
-      </div>
-    </div> <!--end of container-->
-    
-   
-    <!-- <div>
-      <div class="container">    
-        <input id="user-weight" type="text" placeholder="Weight (lbs)"/>
-        <select id="planets"></select> 
-        <p></p>
-        <button onclick="handleClickEvent()" class="btn btn-primary" id="calculate-button">CALCULATE!</button>
-        <p id="output"></p>
-    </div> -->
+      <h1 id="output">      
+    </div> 
      <link rel="stylesheet" href="style.css" />
     <script src="main.js" charset="utf-8"></script>
   </body>
